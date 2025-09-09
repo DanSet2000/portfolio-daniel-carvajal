@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Daniel Carvajal - Ingeniero de Software</title>
+  <link rel="stylesheet" href="styles/style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+<body>
+  <!-- Cabecera -->
+  <header class="container pt-24">
+    <div class="row header-row">
+      <div class="header-id">
+        <div class="avatar" id="avatar" aria-hidden="true">
+          <img
+            src="resources/logos/foto_Daniel.jpeg"
+            alt="Foto de Daniel Carvajal"
+            loading="eager" decoding="async" fetchpriority="high"
+          >
+        </div>
+        <div>
+            <h1 class="title" id="name">Daniel Alejandro Carvajal Mora</h1>
+            <p class="subtitle" id="row">Ingeniero de Software</p>
+        </div>
+      </div>
+
+    <button id="themeToggle" class="btn-outline" aria-label="Cambiar tema" aria-pressed="false">
+      <i id="themeIcon" class="bi bi-moon-stars-fill" aria-hidden="true"></i>
+      <span id="themeText" class="btn-text">Modo Oscuro</span>
+    </button>
+  </div>
+  </header>
+
+  <!-- Datos Personales -->
+  <section class="container">
+    <div class="card p-lg">
+      <p class="lead" id="summary">
+        Soy un Ingeniero de Software recién graduado con experiencia en desarrollo web, enfocado en crear soluciones eficaces, escalables y centradas en el usuario. Haber combinado estudio y trabajo fortaleció mi adaptación, organización y gestión del tiempo. Me interesan el desarrollo web (frontend/backend), la creación de videojuegos y el diseño UX/UI; disfruto resolver problemas con tecnología y buenas prácticas.
+      </p>
+      <p class="lead">
+         Estoy abierto a oportunidades donde pueda aportar valor y seguir creciendo profesionalmente; será un gusto conectar.
+      </p>
+    </div>
+    <div class="meta">
+      <span class="meta-item">
+        <i class="bi bi-geo-alt"></i> Quito, Ecuador
+      </span>
+      <a class="meta-item" href="mailto:danielcarva2000@hotmail.com">
+        <i class="bi bi-envelope"></i> danielcarva2000@hotmail.com
+      </a>
+      <a class="meta-item" href="tel:+593998732120">
+        <i class="bi bi-telephone"></i> +593 99 987 3120
+      </a>
+      <a class="meta-item" href="https://github.com/DanSet2000" target="_blank" rel="noreferrer">
+        <i class="bi bi-github"></i> Perfil de GitHub
+      </a>
+      <a class="meta-item" href="https://www.linkedin.com/in/daniel-alejandro-carvajal-mora-555202309" target="_blank" rel="noreferrer">
+        <i class="bi bi-linkedin"></i> Perfil de LinkedIn
+      </a>
+      <a class="meta-item" href="cv.pdf" target="_blank" rel="noreferrer">
+        <i class="bi bi-download"></i> Descargar CV
+      </a>
+    </div>
+  </section>
+
+  <!--  Vista Principal  -->
+  <main class="container grid">
+  
+  <!-- Columna Izquierda -->
+  <div class="col-left">
+    <!-- Sobre Mí -->
+    <section class="card" aria-labelledby="about-title">
+      <h2 id="about-title" class="section-title">Sobre mí</h2>
+      <p class="about-paragraph">
+        Soy ingeniero de software con foco en desarrollo web y móvil. Me motiva construir productos útiles,
+        escribir código claro y aprender constantemente.
+      </p>
+
+      <ul class="about-list">
+        <li><i class="bi bi-lightbulb"></i> <span>Enfoque en UX, rendimiento y buenas prácticas (accesibilidad, pruebas, documentación).</span></li>
+        <li><i class="bi bi-diagram-3"></i> <span>Trabajo cómodo en equipo, code reviews y flujos CI/CD.</span></li>
+        <li><i class="bi bi-rocket"></i> <span>Curioso por videojuegos, patrones y mejorar procesos.</span></li>
+      </ul>
+
+      <ul class="about-list">
+        <li><i class="bi bi-translate"></i> <span>Idiomas: Español (nativo), Inglés (intermedio).</span></li>
+        <li><i class="bi bi-geo-alt"></i> <span>Modalidad: Quito o remoto.</span></li>
+      </ul>
+
+      <div class="about-tags chips mt-4">
+        <span class="chip">Frontend</span>
+        <span class="chip">Backend</span>
+        <span class="chip">Móvil</span>
+        <span class="chip">UX/UI</span>
+      </div>
+
+      <div class="about-tags chips mt-4">
+        <span class="chip"><i class="bi bi-music-note-beamed" aria-hidden="true"></i> Rock </span>
+        <span class="chip"><i class="bi bi-music-note-beamed" aria-hidden="true"></i> Alternative </span>
+        <span class="chip"><i class="bi bi-music-note-beamed" aria-hidden="true"></i> Metal </span>
+        <span class="chip"><i class="bi bi-controller" aria-hidden="true"></i> RPGs</span>
+        <span class="chip"><i class="bi bi-controller" aria-hidden="true"></i> Indies</span>
+        <a class="chip chip-link chip-spotify"
+          href="https://open.spotify.com/playlist/5Nxss5hbjaBLP4xgdCbXBX?si=72166262e82341e8"
+          target="_blank" rel="noreferrer"
+          aria-label="Abrir mi playlist de enfoque en Spotify">
+          <i class="bi bi-spotify" aria-hidden="true"></i> Playlist para conocerme
+        </a>
+      </a>
+      </div>
+
+
+    </section>
+
+    <!-- Skills -->
+    <section class="card" aria-labelledby="skills-title">
+      <h2 id="skills-title" class="section-title">Habilidades</h2>
+      <div class="chips" id="skills">
+        <span class="chip">JavaScript</span><span class="chip">HTML + CSS</span>
+        <span class="chip">React Native</span><span class="chip">Node.js</span>
+        <span class="chip">Angular</span><span class="chip">PostgreSQL</span>
+        <span class="chip">MongoDB</span><span class="chip">Docker</span>
+        <span class="chip">Git</span><span class="chip">Python</span>
+        <span class="chip">Scrum</span><span class="chip">Java</span>
+      </div>
+    </section>
+
+    <!-- Educación -->
+    <section class="card" aria-labelledby="edu-title">
+    <h2 id="edu-title" class="section-title">Educación</h2>
+    <ul class="edu">
+      <li class="edu-item">
+        <p class="item-title">Escuela Politécnica Nacional</p>
+        <p class="item-sub">Ingeniero de Software</p>
+        <p class="item-period">2018 – 2025</p>
+        <img class="edu-logo"
+        src="resources/logos/logo_epn.png"
+        alt="Escuela Politécnica Nacional"
+        loading="lazy">
+      </li>
+    </ul>
+    <ul class="edu">
+      <li class="edu-item">
+        <p class="item-title">Colegio Nacional "Juan Pío Montúfar"</p>
+        <p class="item-sub">Bachiller en Ciencias</p>
+        <p class="item-period">2012 – 2018</p>
+        <img class="edu-logo"
+        src="resources/logos/logo_montufar.png"
+        alt="Escuela Politécnica Nacional"
+        loading="lazy">
+      </li>
+    </ul>
+  </section>
+  </div>
+
+  <!-- Columna Derecha -->
+  <div class="col-right">
+    <!-- Experiencia Previa -->
+    <section class="card card-span-2" aria-labelledby="exp-title">
+      <h2 id="exp-title" class="section-title">Experiencia</h2>
+      <ol class="timeline">
+        <li class="timeline-item">
+          <div class="timeline-head">
+            <p class="item-title">Pasante de Desarrollo Web</p>
+            <span class="item-period">abr. 2024 - jun. 2024</span>
+          </div>
+          <p class="item-subtitle">INTÉLHO</p>
+          <ul class="item-list">
+            <li>Participé en el soporte y mejora de un sistema de gestión de hospitales, optimizando la presentación de datos en pantalla y la interacción con el usuario.</li>
+          </ul>
+          <p class="item-meta"><strong>Tecnologías / Destrezas:</strong> Yii2, PHP, JavaScript.</p>
+        </li>
+        <li class="timeline-item">
+          <div class="timeline-head">
+            <p class="item-title">Pasante</p>
+            <span class="item-period">ago. 2024 - oct. 2024</span>
+          </div>
+          <p class="item-subtitle">Formos Ecuador</p>
+          <ul class="item-list">
+            <li>Parte del equipo de trabajo encargado del desarrollo y soporte de una aplicación web y móvil utilizando Angular y React, asegurando su correcto funcionamiento y optimización.</li>
+            <li>Realicé pruebas funcionales para garantizar la calidad del software y participé en la documentación técnica, facilitando la mantenibilidad y escalabilidad del proyecto.</li>
+          </ul>
+          <p class="item-meta"><strong>Tecnologías / Destrezas:</strong> React Native, Angular, Documentación técnica.</p>
+        </li>
+        <li class="timeline-item">
+          <div class="timeline-head">
+            <p class="item-title">Pasante de Laboratorio</p>
+            <span class="item-period">mar. 2025 - ago. 2025</span>
+          </div>
+          <p class="item-subtitle">Facultad de Ingeniería de Sistemas EPN</p>
+          <ul class="item-list">
+            <li>Instalación de software.</li>
+            <li>Atención a usuarios.</li>
+            <li>Soporte técnico a estudiantes, docentes y personal administrativo.</li>
+            <li>Mantenimiento de equipos.</li>
+            <li>Vigilancia de laboratorios.</li>
+            <li>Monitoreo de cámaras.</li>
+          </ul>
+          <p class="item-meta"><strong>Tecnologías / Destrezas:</strong> Soporte técnico, Instalación de software, Mantenimiento informático, Atención al cliente.</p>
+        </li>
+      </ol>
+    </section>
+
+    <!-- Voluntariado -->
+    <section class="card card-span-2" aria-labelledby="vol-title">
+      <h2 id="vol-title" class="section-title">Voluntariado</h2>
+      <ol class="timeline">
+        <li class="timeline-item">
+          <div class="timeline-head">
+            <div>
+              <p class="item-title">Tutor</p>
+              <p class="item-subtitle">Proyecto de "Inclusión Digital" - Escuela Politécnica Nacional</p>
+            </div>
+            <span class="item-period">abr. 2023 – sept. 2023</span>
+          </div>
+          <ul class="item-list">
+            <li>Serví como tutor de alfabetización digital para adultos mayores y sectores prioritarios, guiando el uso básico y seguro de dispositivos y servicios en línea.</li>
+            <li>Diseñé sesiones prácticas y materiales de apoyo (smartphone, navegación web, correo, videollamadas, seguridad básica, trámites en línea).</li>
+          </ul>
+          <div class="item-cert">
+            <a class="chip chip-link"
+              href="resources/certificates/Daniel_Carvajal_Inclusion_Digital.pdf"
+              target="_blank" rel="noreferrer">
+              <i class="bi bi-patch-check-fill" aria-hidden="true"></i>
+              Ver certificado
+            </a>
+          </div>
+        </li>
+      </ol>
+      <ol class="timeline">
+        <li class="timeline-item">
+          <div class="timeline-head">
+            <div>
+              <p class="item-title">Tutor - Instructor</p>
+              <p class="item-subtitle">Proyecto "Programadores del Futuro" - Escuela Politécnica Nacional</p>
+            </div>
+            <span class="item-period">jun. 2025 - ago. 2025</span>
+          </div>
+          <ul class="item-list">
+            <li>Serví como tutor para enseñar a niños conceptos básicos de programación, introduciendo pensamiento computacional, secuencias, bucles y condicionales.</li>
+            <li>Guié proyectos prácticos (mini-juegos e historias interactivas) para reforzar lógica, creatividad y trabajo en equipo en un entorno lúdico.</li>
+            <li>Diseñé materiales de apoyo y evaluaciones ligeras; promoví hábitos de seguridad y ciudadanía digital básica.</li>
+          </ul>
+          <div class="item-cert">
+            <a class="chip chip-link"
+              href="resources/certificates/Daniel_Carvajal_Certificado_Instructor_Programadores.pdf"
+              target="_blank" rel="noreferrer">
+              <i class="bi bi-patch-check-fill" aria-hidden="true"></i>
+              Ver certificado
+            </a>
+          </div>
+        </li>
+      </ol>
+    </section>
+
+    <!-- Certificaciones -->
+    <section class="card card-span-2" aria-labelledby="vol-title">
+      <h2 id="vol-title" class="section-title">Certificaciones</h2>
+      <ol class="timeline">
+        <li class="timeline-item">
+          <div class="timeline-head">
+            <div>
+              <p class="item-title">Academic Two</p>
+              <p class="item-subtitle">Centro de Educación Continua EPN</p>
+            </div>
+            <span class="item-period">Febrero 2022</span>
+          </div>
+          <div class="item-cert">
+            <a class="chip chip-link"
+              href="resources/certificates/Daniel_Carvajal_Academic_One.pdf"
+              target="_blank" rel="noreferrer">
+              <i class="bi bi-patch-check-fill" aria-hidden="true"></i>
+              Ver certificado
+            </a>
+          </div>
+        </li>
+      </ol>
+      <ol class="timeline">
+        <li class="timeline-item">
+          <div class="timeline-head">
+            <div>
+              <p class="item-title">Scrum Foundation</p>
+              <p class="item-subtitle">CertiProf</p>
+            </div>
+            <span class="item-period">Junio 2022</span>
+          </div>
+          <div class="item-cert">
+            <a class="chip chip-link"
+              href="resources/certificates/Certificacion Scrum - Daniel Carvajal.pdf"
+              target="_blank" rel="noreferrer">
+              <i class="bi bi-patch-check-fill" aria-hidden="true"></i>
+              Ver certificado
+            </a>
+          </div>
+        </li>
+      </ol>
+      <ol class="timeline">
+        <li class="timeline-item">
+          <div class="timeline-head">
+            <div>
+              <p class="item-title">Getting Started with AWS Security, Identity, and Compliance</p>
+              <p class="item-subtitle">Amazon Web Services (AWS)</p>
+            </div>
+            <span class="item-period">Junio 2022</span>
+          </div>
+          <div class="item-cert">
+            <a class="chip chip-link"
+              href="resources/certificates/Certificado (AWS Security, Identity, and Compliance) - Daniel Carvajal.pdf"
+              target="_blank" rel="noreferrer">
+              <i class="bi bi-patch-check-fill" aria-hidden="true"></i>
+              Ver certificado
+            </a>
+          </div>
+        </li>
+      </ol>
+      <ol class="timeline">
+        <li class="timeline-item">
+          <div class="timeline-head">
+            <div>
+              <p class="item-title">AWS Security Fundamentals (Second Edition)</p>
+              <p class="item-subtitle">Amazon Web Services (AWS)</p>
+            </div>
+            <span class="item-period">Junio 2022</span>
+          </div>
+          <div class="item-cert">
+            <a class="chip chip-link"
+              href="resources/certificates/Certificado (AWS Security Fundamentals) - Daniel Carvajal.pdf"
+              target="_blank" rel="noreferrer">
+              <i class="bi bi-patch-check-fill" aria-hidden="true"></i>
+              Ver certificado
+            </a>
+          </div>
+        </li>
+      </ol>
+      <ol class="timeline">
+        <li class="timeline-item">
+          <div class="timeline-head">
+            <div>
+              <p class="item-title">AWS Well-Architected (Spanish from Latin America)</p>
+              <p class="item-subtitle">Amazon Web Services (AWS)</p>
+            </div>
+            <span class="item-period">Septiembre 2022</span>
+          </div>
+          <div class="item-cert">
+            <a class="chip chip-link"
+              href="resources/certificates/Certificado (AWS Well-Architected) - Daniel Carvajal.pdf"
+              target="_blank" rel="noreferrer">
+              <i class="bi bi-patch-check-fill" aria-hidden="true"></i>
+              Ver certificado
+            </a>
+          </div>
+        </li>
+      </ol>
+    </section>
+  </div>
+
+  </main>
+
+  <!-- Pie de Pagina -->
+   <footer class="footer">
+    © <span id="year"></span> <span id="nameFooter">Daniel Carvajal</span>. Hecho con ♥, HTML y CSS. 👾
+   </footer>
+
+
+  <!-- JS: iniciales, año y tema (Bootstrap Icons) -->
+  <script>
+    (() => {
+      const nameEl = document.getElementById('name');
+      const avatarEl = document.getElementById('avatar');
+      const footerNameEl = document.getElementById('nameFooter');
+
+      let initials = 'DC';
+      if (nameEl) {
+        const full = nameEl.textContent.trim();
+        initials = full.split(/\s+/).map(n => n[0]).slice(0,2).join('').toUpperCase() || 'DC';
+        if (footerNameEl) footerNameEl.textContent = full || 'Daniel Carvajal';
+      }
+
+      // 🔧 Solo usar iniciales si no hay <img> o si la imagen falla
+      const img = avatarEl?.querySelector('img');
+      if (!img) {
+        if (avatarEl) avatarEl.textContent = initials;
+      } else {
+        img.addEventListener('error', () => {
+          if (avatarEl) {
+            avatarEl.textContent = initials;
+            img.remove();
+          }
+        }, { once: true });
+      }
+
+
+    // Año dinámico
+    const yearEl = document.getElementById('year');
+    if (yearEl) yearEl.textContent = new Date().getFullYear();
+
+    // Tema con persistencia 
+    const root = document.documentElement;
+    const toggle = document.getElementById('themeToggle');
+    const icon = document.getElementById('themeIcon');  
+    const text = document.getElementById('themeText');   
+    const KEY = 'theme';
+
+    function applyTheme(theme) {
+      const isDark = theme === 'dark';
+      root.classList.toggle('dark', isDark);
+      if (icon) icon.className = isDark ? 'bi bi-sun-fill' : 'bi bi-moon-stars-fill';
+      if (text) text.textContent = isDark ? 'Modo Claro' : 'Modo Oscuro';
+      if (toggle) toggle.setAttribute('aria-pressed', String(isDark));
+    }
+
+    // Tema inicial: guardado o preferencia del sistema
+    let theme = localStorage.getItem(KEY);
+    if (!theme) {
+      theme = (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches)
+        ? 'dark' : 'light';
+    }
+    applyTheme(theme);
+
+    // Toggle y guardar preferencia
+    toggle?.addEventListener('click', () => {
+      const next = root.classList.contains('dark') ? 'light' : 'dark';
+      localStorage.setItem(KEY, next);
+      applyTheme(next);
+    });
+
+  })();
+  </script>
+</body>
+</html>
+
